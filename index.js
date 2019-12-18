@@ -15,10 +15,11 @@ export default class extends React.PureComponent {
       camera: 'Camera',
       gallery: 'Gallery',
     },
+    imagePickerOptions: {}
   };
 
   getMedia = isCamera =>
-    ImagePicker[isCamera ? 'launchCamera' : 'launchImageLibrary']({}, this.props.onMedia);
+    ImagePicker[isCamera ? 'launchCamera' : 'launchImageLibrary'](this.props.imagePickerOptions, this.props.onMedia);
 
   onOptionSelected = index => {
     if (index === 0) return;
