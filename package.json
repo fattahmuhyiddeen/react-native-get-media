@@ -1,6 +1,6 @@
 {
   "name": "react-native-get-media",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get media (photo/camera) easily without worrying about permission, without worrying if user block permission, without worrying either user pick camera or gallery. Just focus on your app, we handle media request thingy for you",
   "main": "index.js",
   "scripts": {
