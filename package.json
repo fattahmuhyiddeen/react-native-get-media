@@ -1,7 +1,7 @@
 {
   "name": "react-native-get-media",
   "version": "1.0.0",
-  "description": "Get media (photo/camera) easily without worrying about permission, without worrying if user block permission. Just focus on your app, we handle media request thingy",
+  "description": "Get media (photo/camera) easily without worrying about permission, without worrying if user block permission, without worrying either user pick camera or gallery. Just focus on your app, we handle media request thingy for you",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,26 @@
     "type": "git",
     "url": "git+https://github.com/fattahmuhyiddeen/react-native-get-media.git"
   },
-  "keywords": [],
+  "keywords": [
+    "camera",
+    "photo",
+    "gallery",
+    "picker",
+    "image",
+    "media",
+    "action",
+    "sheet",
+    "permission"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fattahmuhyiddeen/react-native-get-media/issues"
   },
-  "homepage": "https://github.com/fattahmuhyiddeen/react-native-get-media#readme"
+  "homepage": "https://github.com/fattahmuhyiddeen/react-native-get-media#readme",
+  "dependencies": {
+    "react-native-image-picker": "^1.1.0",
+    "react-native-permissions": "^2.0.8",
+    "react-native-actionsheet": "2.4.2"
+  }
 }
